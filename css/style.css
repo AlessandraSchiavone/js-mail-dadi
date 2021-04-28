@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+#alert{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    border: 2px solid black;
+    padding:50px;
+}
+#messaggio{
+    font-family: 'Antonio', sans-serif;
+    font-size: 25px;
+}
+#messaggio strong{
+    color:#F03A17;
+    text-decoration: black underline;
+}
