@@ -4,12 +4,12 @@
 // stampa un messaggio appropriato sull'esito del controllo.
 
 var email = prompt("Inserisci l'email per effettuare la verifica:");
+console.log(email);
 var listEmail =["2mohammed.weam@gmail.com", "panarana90@gmail.com", "taaslam3@idustres.online", "dbrahim.d@clk2020.org"];
 console.log(listEmail);
 var control=0;
 
 for( var i=0; i < listEmail.length ; i++ ){
-    console.log(listEmail[i]);
     if( email == listEmail[i] ){
         control = 1;
     }
